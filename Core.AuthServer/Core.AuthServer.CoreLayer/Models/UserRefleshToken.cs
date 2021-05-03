@@ -12,6 +12,6 @@ namespace Core.AuthServer.CoreLayer.Models
 
         public string Code { get; set; }
 
-        public DateTime Expration { get; set; }
+        public DateTime Expiration { get; set; }
     }
 }
