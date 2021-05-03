@@ -12,8 +12,8 @@ namespace Core.AuthServer.CoreLayer.DTOs
 
         public DateTime AccessTokenExpiration { get; set; }
 
-        public string RefleshToken { get; set; }
+        public string RefreshToken { get; set; }
 
-        public DateTime RefleshTokenExpiration { get; set; }
+        public DateTime RefreshTokenExpiration { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.AuthServer.CoreLayer.Models
 {
-    public class UserRefleshToken
+    public class UserRefreshToken
     {
         public string UserId { get; set; }
 
