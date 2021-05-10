@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace Core.AuthServer.ServiceLayer.Services
 {
-    class TokenService : ITokenService
+    public class TokenService : ITokenService
     {
         private readonly UserManager<UserApp> _userManager;
         private readonly CustomTokenOption _tokenOptions;
